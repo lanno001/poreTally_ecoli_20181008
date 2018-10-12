@@ -1,0 +1,40 @@
+START METHODS PRINTING
+description: Minimap2 is a fast all-vs-all mapper of reads that relies on sketches of sequences, composed of minimizers. Miniasm uses the found overlaps to construct an assembly graph. As a consensus step is lacking in this pipeline, post-assembly polishing is often required.
+versions:
+  minimap2: 2.13-r850
+  miniasm: 0.3-r179
+END METHODS PRINTING
+[M::main] ===> Step 1: reading read mappings <===
+[M::ma_hit_read::0.028*1.00] read 12241 hits; stored 17386 hits and 895 sequences (34431186 bp)
+[M::main] ===> Step 2: 1-pass (crude) read selection <===
+[M::ma_hit_sub::0.030*1.06] 877 query sequences remain after sub
+[M::ma_hit_cut::0.031*1.05] 13556 hits remain after cut
+[M::ma_hit_flt::0.031*1.04] 11160 hits remain after filtering; crude coverage after filtering: 9.67
+[M::main] ===> Step 3: 2-pass (fine) read selection <===
+[M::ma_hit_sub::0.031*1.02] 850 query sequences remain after sub
+[M::ma_hit_cut::0.032*1.01] 10770 hits remain after cut
+[M::ma_hit_contained::0.032*1.00] 107 sequences and 318 hits remain after containment removal
+[M::main] ===> Step 4: graph cleaning <===
+[M::ma_sg_gen] read 318 arcs
+[M::main] ===> Step 4.1: transitive reduction <===
+[M::asg_arc_del_trans] transitively reduced 161 arcs
+[M::asg_arc_del_multi] removed 0 multi-arcs
+[M::asg_arc_del_asymm] removed 5 asymmetric arcs
+[M::main] ===> Step 4.2: initial tip cutting and bubble popping <===
+[M::asg_cut_tip] cut 23 tips
+[M::asg_pop_bubble] popped 0 bubbles and trimmed 0 tips
+[M::main] ===> Step 4.3: cutting short overlaps (3 rounds in total) <===
+[M::asg_arc_del_short] removed 0 short overlaps
+[M::asg_arc_del_short] removed 0 short overlaps
+[M::asg_arc_del_short] removed 0 short overlaps
+[M::main] ===> Step 4.4: removing short internal sequences and bi-loops <===
+[M::asg_cut_internal] cut 0 internal sequences
+[M::asg_cut_biloop] cut 0 small bi-loops
+[M::asg_cut_tip] cut 0 tips
+[M::asg_pop_bubble] popped 0 bubbles and trimmed 0 tips
+[M::main] ===> Step 4.5: aggressively cutting short overlaps <===
+[M::asg_arc_del_short] removed 0 short overlaps
+[M::main] ===> Step 5: generating unitigs <===
+[M::main] Version: 0.3-r179
+[M::main] CMD: miniasm -f /mnt/testscratch/lanno001/poreTally_ecoliLoman_20181012/all_reads.fastq minimap2.paf.gz
+[M::main] Real time: 0.111 sec; CPU: 0.108 sec

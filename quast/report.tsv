@@ -1,0 +1,28 @@
+Assembly	smartdenovo	minimap2_miniasm	flye
+# contigs (>= 0 bp)	9	8	1
+# contigs (>= 1000 bp)	9	8	1
+# contigs (>= 5000 bp)	9	8	1
+# contigs (>= 10000 bp)	9	8	1
+# contigs (>= 25000 bp)	9	8	1
+# contigs (>= 50000 bp)	9	8	1
+Total length (>= 0 bp)	2864657	2452059	4592088
+Total length (>= 1000 bp)	2864657	2452059	4592088
+Total length (>= 5000 bp)	2864657	2452059	4592088
+Total length (>= 10000 bp)	2864657	2452059	4592088
+Total length (>= 25000 bp)	2864657	2452059	4592088
+Total length (>= 50000 bp)	2864657	2452059	4592088
+# contigs	9	8	1
+Largest contig	1198565	1173246	4592088
+Total length	2864657	2452059	4592088
+Reference length	4641652	4641652	4641652
+Reference GC (%)	50.79	50.79	50.79
+N50	458062	303115	4592088
+NG50	194655	132154	4592088
+N75	204037	187752	4592088
+NG75	-	-	4592088
+L50	2	2	1
+LG50	6	7	1
+L75	5	4	1
+LG75	-	-	1
+# N's per 100 kbp	0.00	0.00	0.00
+NGA50	-	-	-

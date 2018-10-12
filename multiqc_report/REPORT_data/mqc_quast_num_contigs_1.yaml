@@ -1,0 +1,6 @@
+flye:
+  '>= 50000 bp': 1.0
+minimap2_miniasm:
+  '>= 50000 bp': 8.0
+smartdenovo:
+  '>= 50000 bp': 9.0

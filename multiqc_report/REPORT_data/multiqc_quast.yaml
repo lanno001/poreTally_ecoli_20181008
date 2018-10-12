@@ -1,0 +1,84 @@
+flye:
+  '# N''s per 100 kbp': 0.0
+  '# contigs': 1.0
+  '# contigs (>= 0 bp)': 1.0
+  '# contigs (>= 1000 bp)': 1.0
+  '# contigs (>= 10000 bp)': 1.0
+  '# contigs (>= 25000 bp)': 1.0
+  '# contigs (>= 5000 bp)': 1.0
+  '# contigs (>= 50000 bp)': 1.0
+  L50: 1.0
+  L75: 1.0
+  LG50: 1.0
+  LG75: 1.0
+  Largest contig: 4592088.0
+  N50: 4592088.0
+  N75: 4592088.0
+  NG50: 4592088.0
+  NG75: 4592088.0
+  NGA50: '-'
+  Reference GC (%): 50.79
+  Reference length: 4641652.0
+  Total length: 4592088.0
+  Total length (>= 0 bp): 4592088.0
+  Total length (>= 1000 bp): 4592088.0
+  Total length (>= 10000 bp): 4592088.0
+  Total length (>= 25000 bp): 4592088.0
+  Total length (>= 5000 bp): 4592088.0
+  Total length (>= 50000 bp): 4592088.0
+minimap2_miniasm:
+  '# N''s per 100 kbp': 0.0
+  '# contigs': 8.0
+  '# contigs (>= 0 bp)': 8.0
+  '# contigs (>= 1000 bp)': 8.0
+  '# contigs (>= 10000 bp)': 8.0
+  '# contigs (>= 25000 bp)': 8.0
+  '# contigs (>= 5000 bp)': 8.0
+  '# contigs (>= 50000 bp)': 8.0
+  L50: 2.0
+  L75: 4.0
+  LG50: 7.0
+  LG75: '-'
+  Largest contig: 1173246.0
+  N50: 303115.0
+  N75: 187752.0
+  NG50: 132154.0
+  NG75: '-'
+  NGA50: '-'
+  Reference GC (%): 50.79
+  Reference length: 4641652.0
+  Total length: 2452059.0
+  Total length (>= 0 bp): 2452059.0
+  Total length (>= 1000 bp): 2452059.0
+  Total length (>= 10000 bp): 2452059.0
+  Total length (>= 25000 bp): 2452059.0
+  Total length (>= 5000 bp): 2452059.0
+  Total length (>= 50000 bp): 2452059.0
+smartdenovo:
+  '# N''s per 100 kbp': 0.0
+  '# contigs': 9.0
+  '# contigs (>= 0 bp)': 9.0
+  '# contigs (>= 1000 bp)': 9.0
+  '# contigs (>= 10000 bp)': 9.0
+  '# contigs (>= 25000 bp)': 9.0
+  '# contigs (>= 5000 bp)': 9.0
+  '# contigs (>= 50000 bp)': 9.0
+  L50: 2.0
+  L75: 5.0
+  LG50: 6.0
+  LG75: '-'
+  Largest contig: 1198565.0
+  N50: 458062.0
+  N75: 204037.0
+  NG50: 194655.0
+  NG75: '-'
+  NGA50: '-'
+  Reference GC (%): 50.79
+  Reference length: 4641652.0
+  Total length: 2864657.0
+  Total length (>= 0 bp): 2864657.0
+  Total length (>= 1000 bp): 2864657.0
+  Total length (>= 10000 bp): 2864657.0
+  Total length (>= 25000 bp): 2864657.0
+  Total length (>= 5000 bp): 2864657.0
+  Total length (>= 50000 bp): 2864657.0

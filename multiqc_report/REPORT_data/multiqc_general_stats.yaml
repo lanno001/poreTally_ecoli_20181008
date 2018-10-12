@@ -1,0 +1,15 @@
+flye:
+  CPU usage_mqc-generalstats-Wall_time: 0:05:42
+  CPU usage_mqc-generalstats-peak_CPU_usage_PSS_MB: 5502.0
+  QUAST_mqc-generalstats-N50: 4592088.0
+  QUAST_mqc-generalstats-Total_length: 4592088.0
+minimap2_miniasm:
+  CPU usage_mqc-generalstats-Wall_time: 0:00:04
+  CPU usage_mqc-generalstats-peak_CPU_usage_PSS_MB: 593.35
+  QUAST_mqc-generalstats-N50: 303115.0
+  QUAST_mqc-generalstats-Total_length: 2452059.0
+smartdenovo:
+  CPU usage_mqc-generalstats-Wall_time: 0:03:40
+  CPU usage_mqc-generalstats-peak_CPU_usage_PSS_MB: 365.5
+  QUAST_mqc-generalstats-N50: 458062.0
+  QUAST_mqc-generalstats-Total_length: 2864657.0

@@ -1,0 +1,60 @@
+START METHODS PRINTING
+description: Flye uses A-Bruijn graphs to assemble long error-prone reads. To do so, it follows arbitrary paths through the assembly graph and constructs new assembly graphs from these paths.
+versions:
+  flye: 2.3.6-release
+END METHODS PRINTING
+[2018-10-12 11:39:49] INFO: Running Flye 2.3.6-release
+[2018-10-12 11:39:49] INFO: Configuring run
+[2018-10-12 11:39:49] INFO: Input genome size: 4641652
+[2018-10-12 11:39:49] INFO: Estimated coverage: 7
+[2018-10-12 11:39:49] INFO: Reads N50/N90: 63122 / 18363
+[2018-10-12 11:39:49] INFO: Minimum overlap set to 5000
+[2018-10-12 11:39:49] INFO: Selected k-mer size: 15
+[2018-10-12 11:39:49] INFO: Assembling reads
+[2018-10-12 11:39:49] INFO: Reading sequences
+[2018-10-12 11:39:50] INFO: Generating solid k-mer index
+[2018-10-12 11:40:11] INFO: Counting kmers (1/2):
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2018-10-12 11:40:11] INFO: Counting kmers (2/2):
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2018-10-12 11:40:12] INFO: Filling index table
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2018-10-12 11:40:14] INFO: Extending reads
+[2018-10-12 11:40:43] INFO: Overlap-based coverage: 5
+[2018-10-12 11:40:43] INFO: Median overlap divergence: 0.0788308
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2018-10-12 11:40:45] INFO: Assembled 11 draft contigs
+[2018-10-12 11:40:45] INFO: Generating contig sequences
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2018-10-12 11:41:15] INFO: Running Minimap2
+[2018-10-12 11:41:23] INFO: Computing consensus
+[2018-10-12 11:42:01] INFO: Alignment error rate: 0.199880688217
+[2018-10-12 11:42:01] INFO: Performing repeat analysis
+[2018-10-12 11:42:01] INFO: Reading sequences
+[2018-10-12 11:42:01] INFO: Building repeat graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2018-10-12 11:42:28] INFO: Median overlap divergence: 0.0677682
+[2018-10-12 11:42:28] INFO: Aligning reads to the graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2018-10-12 11:42:56] INFO: Aligned read sequence: 32793283 / 34533283 (0.949614)
+[2018-10-12 11:42:56] INFO: Median overlap divergence: 0.0637015
+[2018-10-12 11:42:56] INFO: Mean edge coverage: 7
+[2018-10-12 11:42:56] INFO: Resolving repeats
+[2018-10-12 11:42:56] INFO: Generating contigs
+[2018-10-12 11:42:57] INFO: Generated 1 contigs
+[2018-10-12 11:42:57] INFO: Polishing genome (1/1)
+[2018-10-12 11:42:57] INFO: Running minimap2
+[2018-10-12 11:43:03] INFO: Separating alignment into bubbles
+[2018-10-12 11:44:09] INFO: Alignment error rate: 0.168512861914
+[2018-10-12 11:44:09] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2018-10-12 11:45:17] INFO: Assembly statistics:
+
+	Total length:	4592088
+	Contigs:	1
+	Scaffolds:	1
+	Scaffolds N50:	4592088
+	Largest scf:	4592088
+	Mean coverage:	7
+
+[2018-10-12 11:45:17] INFO: Final assembly: /mnt/testscratch/lanno001/poreTally_ecoliLoman_20181012/assembler_results/flye/scaffolds.fasta
